@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2ae1bedbc2d100d4686be294134ba593
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - regMaterial: {instanceID: 0}
+  - selectMaterial: {instanceID: 0}
+  - DestroyBuildingSound: {fileID: 8300000, guid: 0080a8ff3fc05804391ed60fedd4a946,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,3 @@
+2
+0,The 1st Collection,1|Mine 10 Stone,Resource,0,10|1000,100
+1,My 1st Buildings,2|Build 3 Stone Mines,Building,0,3/Mine 4 Copper,Resource,1,4|2500,400

@@ -1,0 +1,12 @@
+11
+0,Stone,50,50
+1,Copper,100,125
+2,Steel,150,250
+3,Mikonium,200,300
+4,Alexite,250,350
+5,Timanium,300,400
+6,Statue,300,50
+7,Energy Cell,1000,100
+8,Generator,6500,150
+9,Jewellery,1000,200
+10,Hull Plating,3000,250

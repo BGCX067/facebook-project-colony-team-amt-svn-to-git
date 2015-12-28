@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1FFD990B-CD2E-010C-34CB-6B6AAAE13649}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_3;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\Scripts\Buildings\Building.cs" />
+     <Compile Include="Assets\Scripts\Buildings\BuildingTimer.cs" />
+     <Compile Include="Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\Data\Loaders\BuildingDataReader.cs" />
+     <Compile Include="Assets\Scripts\Data\Loaders\DataReader.cs" />
+     <Compile Include="Assets\Scripts\Data\Loaders\InventoryDataReader.cs" />
+     <Compile Include="Assets\Scripts\Data\Loaders\LevelDataReader.cs" />
+     <Compile Include="Assets\Scripts\Data\Loaders\MapDataReader.cs" />
+     <Compile Include="Assets\Scripts\Data\Loaders\QuestDataReader.cs" />
+     <Compile Include="Assets\Scripts\Data\Savers\BuildingDataSaver.cs" />
+     <Compile Include="Assets\Scripts\Data\Savers\InventoryDataSaver.cs" />
+     <Compile Include="Assets\Scripts\Data\Savers\LevelDataSaver.cs" />
+     <Compile Include="Assets\Scripts\Data\Savers\MapDataSaver.cs" />
+     <Compile Include="Assets\Scripts\Data\Savers\QuestDataSaver.cs" />
+     <Compile Include="Assets\Scripts\DataType\BuildingTypeData.cs" />
+     <Compile Include="Assets\Scripts\DataType\CraftResourceTypeData.cs" />
+     <Compile Include="Assets\Scripts\DataType\QuestTypeData.cs" />
+     <Compile Include="Assets\Scripts\DataType\ResourceTypeData.cs" />
+     <Compile Include="Assets\Scripts\DataType\XPLevelData.cs" />
+     <Compile Include="Assets\Scripts\GUI\ActiveQuestGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\BuildButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\ButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\BuyButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\CraftButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\FinishBuildingButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\FullScreenButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\InventoryButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\MoveButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\MuteButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\SellButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\VolumeDownButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\VolumeUpButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\ZoomInButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\Buttons\ZoomOutButtonGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\FBFriendsGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\FBProfileGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\MoneyGUI.cs" />
+     <Compile Include="Assets\Scripts\GUI\PlayerInventoryGUIWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\BuildGUIWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\BuildingOptionsGUIWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\CraftGUIWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\InventoryGUIWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\LevelUpWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\MicroTransactionGUIWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\QuestCompleteWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\QuestProgressWindow.cs" />
+     <Compile Include="Assets\Scripts\GUI\Windows\WindowGUI.cs" />
+     <Compile Include="Assets\Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\Scripts\Managers\FBManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\QuestManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\WorldManager.cs" />
+     <Compile Include="Assets\Scripts\Tile.cs" />
+     <None Include="Assets\plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Data\BuildingTypeData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Data\ResourceTypeData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Data\QuestData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\Data\LevelData.txt" />
+     <None Include="Assets\plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Data\QuestTypeData.txt" />
+     <None Include="Assets\plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Data\InventoryData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\plugins\Android\facebook\build.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Data\CraftResourceTypeData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Data\XPLevelsData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Data\MapData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Data\BuildingData.txt" />
+     <None Include="Assets\plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+ <Reference Include="IFacebook">
+ <HintPath>Assets\Facebook\Scripts\IFacebook.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>Assets\plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{D01F4BBB-06B9-8EDF-DD05-BD107B2793B3}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

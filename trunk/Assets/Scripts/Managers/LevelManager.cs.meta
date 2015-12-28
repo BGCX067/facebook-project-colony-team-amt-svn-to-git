@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: df93b33c34bced64dac8d8aa568cdfd0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - levelUpSound: {fileID: 8300000, guid: 269df32cb47b13941be66fb86f3a3978, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

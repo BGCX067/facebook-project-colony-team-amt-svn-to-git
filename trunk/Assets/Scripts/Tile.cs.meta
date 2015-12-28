@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b733915c301d4454cb8e73051b10b623
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - regMaterial: {instanceID: 0}
+  - selectEmptyMaterial: {instanceID: 0}
+  - selectFullMaterial: {instanceID: 0}
+  - PlaceBuildingSound: {fileID: 8300000, guid: 8f3bdf3cc266a1846bac1eb9f9cfe30e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

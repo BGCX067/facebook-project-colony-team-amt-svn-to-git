@@ -1,0 +1,13 @@
+5
+0,Statue,50,0,1,3,1, "A commemorative statue with a "shiny" plaque. Many of these statues are of FDA (Federation of Defensive Alliances) members." Resources Needed To Craft: 3 Stone and 1 Copper
+1,Energy Cell,100,3,1,3,1, "Energy Cells are the most commonly used energy capacitor. Mikonium is used to provide and hold energy while Copper is used to conduct the energy." Resources Needed To Craft: 3 Mikonium and 1 Copper
+2,Generator,150,7,5,5,2, "Providing enegry to most of the colonised worlds - Generators are necessary to sustain modern technology." Resources Needed To Craft: 5 Energy Cells and 2 Timanium
+3,Jewellery,200,4,2,2,2, "Jewellery made from a rare crystal named Alexite and steel - Alexite is mainly used in jewellery mined close to the lower mantle of a planet or moons core. Guaranteed "quality" workforce?" Resources Needed To Craft: 2 Alexite and 2 Steel
+4,Hull Plating,250,5,2,6,3, "Used mainly for the defense of ships in the FDA (Federation of Defensive Alliances) Hull Plating uses Timanium - The strongest known metal to the universe. Well thats what we tell our customers." Resources Needed To Craft: 6 Timanium and 3 Steel
+
+// ID, Name, XP, resource1ID, resource2ID, Resource 1 amount, Resource 2 amount, Text description
+// Statue, Stone and Copper
+// Energy Cell, Mikonium and Copper
+// Generator, Energy Cell and Timanium
+// Jewelry, Alexite and Steel
+// Hull Plating, Timanium and Steel

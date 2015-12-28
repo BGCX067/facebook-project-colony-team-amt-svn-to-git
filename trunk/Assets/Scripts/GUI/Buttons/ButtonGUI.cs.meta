@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 8225eccd60006554c9a7d4290bedbfea
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - t2Texture: {instanceID: 0}
+  - GUIButtonSkin: {fileID: 11400000, guid: 8c62d333cf268224c95e07ea52988e66, type: 2}
+  - ClickButtonSound: {fileID: 8300000, guid: ecafa66f4d3bfec4bbbe5cd184568780, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a4e647fa9b9f8864c9397abcec4d36b9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - GUIButtonSkin: {instanceID: 0}
+  - CraftButtonSound: {fileID: 8300000, guid: 2869cb21df6314641ab24445c04c08e4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

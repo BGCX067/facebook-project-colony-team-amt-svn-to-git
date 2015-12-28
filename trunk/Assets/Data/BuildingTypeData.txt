@@ -1,0 +1,16 @@
+6
+0,Stone Mine,1,1,100,0.00:20:00,1
+1,Copper Mine,1,1,300,0.01:10:00,1
+2,Steel Mine,1,1,500,0.01:50:00,1
+3,Mikonium Extractor,1,1,750,0.02:30:00,1
+4,Alexite Excavator,1,1,1000,0.04:30:00,1
+5,Timanium Mine,1,1,2000,0.08:00:00,1
+
+/*
+0,Stone Mine,1,1,100,0.00:20:00,1
+1,Copper Mine,1,1,300,0.01:10:00,1
+2,Steel Mine,1,1,500,0.01:50:00,1
+3,Mikonium Extractor,1,1,750,0.02:30:00,1
+4,Alexite Excavator,1,1,1000,0.04:30:00,1
+5,Timanium Mine,1,1,2000,0.08:00:00,1
+*/
